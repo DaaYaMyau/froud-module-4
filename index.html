@@ -7,18 +7,6 @@
     <title>Froud</title>
     <link rel="stylesheet" href="stylesheets/style.css">
     <link rel="shortcut icon" href="img/logo.svg" type="image/x-icon">
-    <script src="./js/main.js" charset="UTF-8"></script>
-    <script type="importmap">
-    {
-        "imports": {
-        "three": "https://cdn.jsdelivr.net/npm/three@0.132.2/build/three.module.js",
-        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.132.2/examples/jsm/",
-        "cannon-es": "https://cdn.jsdelivr.net/npm/cannon-es@0.20.0/dist/cannon-es.js",
-        "gsap": "https://cdn.jsdelivr.net/npm/gsap@3.11.4/dist/gsap.min.js"
-        }
-    }
-    </script>
-    <script type="module" src="./js/ThreeJs.js" charset="UTF-8"></script>
 
 </head>
 
@@ -53,7 +41,17 @@
     </div>
 
 
+    <script src="js/main.js" charset="UTF-8"></script>
 
+    <script type="importmap">
+        {
+            "imports": {
+              "three": "https://cdn.jsdelivr.net/npm/three@0.172.0/build/three.module.js",
+              "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.172.0/examples/jsm/"
+            }
+          }
+    </script>
+    <script type="module" src="js/ThreeJs.js" charset="UTF-8"></script>
 </body>
 
 </html>
