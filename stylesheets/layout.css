@@ -1,0 +1,123 @@
+body {
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+
+footer {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    width: 99.9vw;
+    height: 4.9vw;
+    border: 1px solid #0075F2;
+    color: #0075F2;
+    font-family: "IBM Plex Mono Medium", monospace;
+    font-size: clamp(0.875rem, 0.85rem + 0.13vw, 1rem);
+    position: absolute;
+    bottom: 0;
+    margin-top: 100vh;
+}
+
+.first-column-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.tg-p {
+    margin-left: 1.8vw;
+    margin-top: 1.15vw;
+}
+
+.email-p {
+    margin-left: 1.8vw;
+    margin-top: 0.5vw;
+}
+
+.second-column-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 1.2vw;
+}
+
+/* .hse-p {
+    margin-top: 1.15vw;
+} */
+
+.third-column-footer {
+    display: flex;
+    align-items: flex-start;
+    margin-right: 14.3vw;
+    margin-top: 1.15vw;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-button {
+    display: flex;
+}
+
+input {
+    background: transparent;
+    width: 10vw;
+    height: 1.4vw;
+    border: 1px solid #0075F2;
+    padding-top: 0.1vw;
+    padding-left: 0.3vw;
+    padding-right: 2.4vw;
+    margin-top: 0.5vw;
+    box-sizing: border-box;
+    cursor: text;
+    font-family: "IBM Plex Mono Medium", monospace;
+    font-size: clamp(0.875rem, 0.85rem + 0.13vw, 1rem);
+    color: #0075F2;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 50px black inset;
+    /* можно изменить на любой вариант цвета */
+    -webkit-text-fill-color: #0075F2;
+    -webkit-outline: none
+}
+
+input:focus {
+    outline: none;
+    color: #0075F2;
+
+}
+
+/* 
+input:-internal-autofill-selected {
+    appearance: none;
+    background: transparent !important; 
+    color: #0075F2 !important;
+} */
+/* input:autofill {
+    background-color: transparent !important;
+    color: #0075F2 !important;
+    border: 1px solid #0075F2 !important;
+} */
+
+::placeholder {
+    font-family: "IBM Plex Mono Medium", monospace;
+    font-size: clamp(0.875rem, 0.85rem + 0.13vw, 1rem);
+    color: #0075F2;
+}
+
+button {
+    background: transparent;
+    border: none;
+    margin-left: -2.6vw;
+    margin-top: 0.65vw;
+    cursor: pointer;
+}
+
+button img {
+    width: 2vw;
+    height: 1vw;
+}
