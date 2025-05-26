@@ -23,15 +23,14 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    margin-left: 1.8vw;
 }
 
 .tg-p {
-    margin-left: 1.8vw;
     margin-top: 1.15vw;
 }
 
 .email-p {
-    margin-left: 1.8vw;
     margin-top: 0.5vw;
 }
 
@@ -49,7 +48,7 @@ footer {
 .third-column-footer {
     display: flex;
     align-items: flex-start;
-    margin-right: 14.3vw;
+    margin-right: 12vw;
     margin-top: 1.15vw;
 }
 
