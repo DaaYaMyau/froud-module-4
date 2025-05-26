@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Загрузка модели
     const loader = new GLTFLoader();
     loader.load(
-        '../3D/froud-logo.glb',
+        '../3D/froud_logo.glb',
         (gltf) => {
             const model = gltf.scene;
             model.position.set(0, -2.5, 0); // Начинаем с центра
