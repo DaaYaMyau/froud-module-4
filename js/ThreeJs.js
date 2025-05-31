@@ -56,6 +56,28 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     );
 
+    function loading(link, position, scale) {
+        loader.load(
+            link,
+            (gltf) => {
+                const model = gltf.scene;
+                model.position.set(...position);
+                model.scale.set(...scale); // Установите подходящий масштаб
+                scene.add(model);
+            },
+            undefined,
+            (error) => {
+                console.error('Ошибка загрузки модели бутылки:', error);
+            }
+        );
+    }
+
+    loading('threeD/bottle.glb', [0, 0, 2], [10, 10, 10]);
+    loading('threeD/ice.glb', [1.5, 0, 2], [0.5, 0.5, 0.5]);
+    loading('threeD/machine.glb', [-1, 0, 2], [0.8, 0.8, 0.8]);
+    loading('threeD/tomato.glb', [0, -0.5, 2], [0.35, 0.35, 0.35]);
+    loading('threeD/cow.glb', [1.5, 1.5, 2], [0.35, 0.35, 0.35]);
+
     // Обработка ресайза окна
     window.addEventListener('resize', () => {
         camera.aspect = window.innerWidth / window.innerHeight;
