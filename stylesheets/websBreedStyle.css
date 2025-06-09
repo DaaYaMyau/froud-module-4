@@ -1,0 +1,29 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/frozenBackround.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+.firstWebPoster, .secondWebPoster {
+    width: 37vw;
+    /* height: 54vw; */
+    height: 85vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 1.7vw;
+}
+
+.firstWebPoster {
+    background-image: url(../img/firstWebPoster.png);
+}
+
+.secondWebPoster {
+    background-image: url(../img/secondWebPoster.png);
+    margin-left: 8vw;
+}

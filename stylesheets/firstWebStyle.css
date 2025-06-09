@@ -1,0 +1,11 @@
+.textBlock {
+    font-size: clamp(1.125rem, 0.95rem + 0.88vw, 2rem);
+    width: 48.3vw;
+    position: fixed;
+    top: 11.6vw;
+    right: 1.8vw;
+}
+
+.textBlock p:last-child {
+    margin-top: 1vw;
+}
