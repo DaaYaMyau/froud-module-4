@@ -35,4 +35,8 @@ document.addEventListener('DOMContentLoaded', () => {
         window.location.href = "firstWebPoster.html";
     });
 
+    secondWebPoster.addEventListener('click', function () {
+        window.location.href = "secondWebPoster.html";
+    });
+
 });

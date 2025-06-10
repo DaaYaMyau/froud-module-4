@@ -15,8 +15,8 @@ footer {
     /* font-family: "IBM Plex Mono Medium", monospace; */
     font-size: clamp(0.875rem, 0.85rem + 0.13vw, 1rem);
     position: absolute;
-    bottom: 0;
-    margin-top: 100vh;
+    bottom: 0vw;
+    /* margin-top: 100vh; */
     z-index: 1;
 }
 
@@ -129,9 +129,10 @@ button img {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    position: absolute;
+    position: fixed;
     top: 1.7vw;
     left: 1.8vw;
+    z-index: 3;
 }
 
 .closed-burger {
@@ -141,10 +142,11 @@ button img {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    position: absolute;
+    position: fixed;
     top: 1.7vw;
     right: 1.8vw;
     display: flex;
+    z-index: 3;
 }
 
 .opened-burger {
@@ -154,11 +156,12 @@ button img {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    position: absolute;
+    position: fixed;
     top: 1.7vw;
     right: 1.8vw;
     display: none;
     flex-direction: column;
+    z-index: 3;
 }
 
 .close {
@@ -186,9 +189,9 @@ button img {
     margin-top: 1.5vw;
 }
 
-/* a {
+a {
     color: #0075F2;
-} */
+}
 
 .background-footer {
     width: 100vw;

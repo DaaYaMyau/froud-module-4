@@ -1,3 +1,7 @@
+body {
+    overflow-y: scroll;
+}
+
 .textBlock {
     font-size: clamp(1.125rem, 0.95rem + 0.88vw, 2rem);
     width: 48.3vw;
@@ -8,4 +12,49 @@
 
 .textBlock p:last-child {
     margin-top: 1vw;
+}
+
+.mediaBlock {
+    margin-left: 1.8vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.videoFirstLeft {
+    height: 25.9vw;
+    width: 46vw;
+}
+
+.videoSecondLeft {
+    height: 22.1vw;
+    width: 46vw;
+}
+
+.videoThirdLeft {
+    height: 25.8vw;
+    width: 46vw;
+}
+
+img {
+    height: 33vw;
+    width: 46vw;
+}
+
+/* .imgFirstLeft {
+    height: 33.4vw;
+    width: 46vw;
+}
+
+.imgSecondLeft {
+    height: 33.3vw;
+    width: 46vw;
+}
+
+.imgThirdLeft {
+    height: 23vw;
+    width: 46vw;
+} */
+
+footer {
+    position: static;
 }
