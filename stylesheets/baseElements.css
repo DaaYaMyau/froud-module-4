@@ -109,7 +109,7 @@ input:-internal-autofill-selected {
     /* color: #0075F2; */
 }
 
-button {
+.arrowButton {
     background: transparent;
     border: none;
     margin-left: -2.6vw;
@@ -117,7 +117,7 @@ button {
     cursor: pointer;
 }
 
-button img {
+.arrowButton img {
     width: 2vw;
     height: 1vw;
 }
@@ -205,4 +205,14 @@ a {
     bottom: 0;
     left: 0;
     z-index: 0;
+}
+
+.basicButton {
+        width: 22.71vw;
+    height: 4.79vw;
+    background-color: #0075F2;
+        font-family: "IBM Plex Mono Medium", monospace;
+    color: white;
+    font-size: clamp(1rem, 0.925rem + 0.38vw, 1.375rem);
+    white-space: nowrap;
 }

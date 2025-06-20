@@ -1,0 +1,52 @@
+body {
+        overflow-y: scroll;
+}
+
+.infoBlock {
+    margin-top: 7vw;
+    margin-left: 1.82vw;
+    margin-bottom: 4.64vw;
+}
+
+.images {
+    display: flex;
+}
+
+.firstIMG {
+    width: 22.71vw;
+    height: 19.74vw;
+        background-image: url(../img/firstBuild.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+        margin-right: 1.82vw;
+}
+
+.secondIMG {
+    width: 22.71vw;
+    height: 19.74vw;
+        background-image: url(../img/secondBuild.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.textBlock {
+    font-size: clamp(1rem, 0.55rem + 2.25vw, 3.25rem);
+        /* line-height: 101.852%; */
+    margin-top: 0.78vw;
+    margin-bottom: 1.35vw;
+    width: 47.24vw;
+}
+
+.firstButton {
+        margin-right: 1.82vw;
+}
+
+.secondButton {
+        margin-left: -1vw;
+}
+
+footer {
+    position: static;
+}

@@ -1,0 +1,126 @@
+body {
+    overflow-y: scroll;
+}
+
+.twoColumns {
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.text {
+    font-size: clamp(1.125rem, 0.95rem + 0.88vw, 2rem);
+    margin-top: 15vw;
+    margin-bottom: 28.4vw;
+}
+
+.text p:last-child {
+    margin-top: 1vw;
+}
+
+.leftColumn {
+    margin-left: 1.8vw;
+    width: 46.5.5vw;
+}
+
+.rightColumn {
+    width: 46.5.5vw;
+    margin-left: 2.2vw;
+}
+
+.left-1 {
+    background-image: url(../img/colorPostersAll.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.left-2 {
+    background-image: url(../img/colorPoster.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.left-3 {
+    background-image: url(../img/drawPosterMockup.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.left-4 {
+    background-image: url(../img/drawPostersAll.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.left-5 {
+    background-image: url(../img/symbolPostersMockup.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.left-6 {
+    background-image: url(../img/symbolPostersAll.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.left-7 {
+    background-image: url(../img/bluePosterMockup.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.right-1 {
+    background-image: url(../img/realPosterMockup.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.right-2 {
+    background-image: url(../img/photoPostersAll.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.right-3 {
+    background-image: url(../img/realPosterMockup.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.right-4 {
+    background-image: url(../img/realPostersAll.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.right-5 {
+    background-image: url(../img/allPosters.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.content {
+    width: 46.5vw;
+    height: 33vw;
+}
+
+.contentAll {
+    width: 46.5vw;
+    height: 18.7vw;
+}
+
+footer {
+    position: static;
+}

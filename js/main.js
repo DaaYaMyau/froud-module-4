@@ -3,11 +3,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const burgerClosed = document.querySelector('.closed-burger');
     const burgerOpened = document.querySelector('.opened-burger');
     const close = document.querySelector('.close');
-    const webs = document.querySelector('.webs');
-    const firstWebPoster = document.querySelector('.firstWebPoster');
-    const secondWebPoster = document.querySelector('.secondWebPoster');
-
-
+//     const webs = document.querySelector('.webs');
+//     const firstWebPoster = document.querySelector('.firstWebPoster');
+//     const secondWebPoster = document.querySelector('.secondWebPoster');
+//     const posters = document.querySelector('.posters');
+// const building = document.querySelector('.building');
 
     logo.addEventListener('click', function () {
         window.location.href = "index.html";
@@ -27,16 +27,24 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    webs.addEventListener('click', function () {
-        window.location.href = "webBreeding.html";
-    });
+    // webs.addEventListener('click', function () {
+    //     window.location.href = "webBreeding.html";
+    // });
 
-    firstWebPoster.addEventListener('click', function () {
-        window.location.href = "firstWebPoster.html";
-    });
+    // firstWebPoster.addEventListener('click', function () {
+    //     window.location.href = "firstWebPoster.html";
+    // });
 
-    secondWebPoster.addEventListener('click', function () {
-        window.location.href = "secondWebPoster.html";
-    });
+    // secondWebPoster.addEventListener('click', function () {
+    //     window.location.href = "secondWebPoster.html";
+    // });
+
+    //     posters.addEventListener('click', function () {
+    //     window.location.href = "secondWebPoster.html";
+    // });
+
+    //         building.addEventListener('click', function () {
+    //     window.location.href = "building.html";
+    // });
 
 });
