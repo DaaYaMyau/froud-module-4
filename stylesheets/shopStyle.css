@@ -1,0 +1,114 @@
+body {
+    overflow-y: scroll;
+}
+
+footer {
+    position: static;
+}
+
+.shop {
+    display: flex;
+
+}
+
+.heading {
+    margin-top: 6.25vw;
+    margin-left: 1.8vw;
+    font-size: clamp(1.5rem, 1.188rem + 1.56vw, 3.063rem);
+}
+
+.productCard {
+    margin-top: 2.08vw;
+    margin-left: 1.8vw;
+    width: 22.71vw;
+    margin-bottom: 4.69vw;
+}
+
+.imgSoda {
+    width: 22.71vw;
+    height: 16.98vw;
+    border: 1px solid #0075F2;
+    background-image: url(../img/soda.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.imgLunch {
+    width: 22.71vw;
+    height: 16.98vw;
+    border: 1px solid #0075F2;
+    background-image: url(../img/lunch.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.imgMilk {
+    width: 22.71vw;
+    height: 16.98vw;
+    border: 1px solid #0075F2;
+    background-image: url(../img/milk.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.imgCase {
+    width: 22.71vw;
+    height: 16.98vw;
+    border: 1px solid #0075F2;
+    background-image: url(../img/case.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.imgVending {
+    width: 22.71vw;
+    height: 16.98vw;
+    border: 1px solid #0075F2;
+    background-image: url(../img/vending.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cards {
+    display: flex;
+    width: 74vw;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.textOnCard {
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    display: flex;
+    justify-content: space-between;
+    font-size: clamp(1.125rem, 1.075rem + 0.25vw, 1.375rem);
+    letter-spacing: -0.1vw;
+}
+
+.activeButton {
+    border: 1px solid #0075F2;
+    width: 22.71vw;
+    height: 4.79vw;
+    background-color: #CED2D6;
+    font-family: "IBM Plex Mono Medium", monospace;
+    color: #0075F2;
+    font-size: clamp(1rem, 0.925rem + 0.38vw, 1.375rem);
+    white-space: nowrap;
+    display: none;
+}
+
+.cart {
+    width: 26.35vw;
+    border: 1px solid #0075F2;
+}
+
+.cart p {
+    margin-top: 6.25vw;
+    margin-left: 1.8vw;
+    font-size: clamp(1.5rem, 1.188rem + 1.56vw, 3.063rem);
+}

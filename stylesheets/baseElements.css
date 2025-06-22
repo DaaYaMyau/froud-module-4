@@ -79,9 +79,9 @@ input {
 }
 
 input:-webkit-autofill {
-    -webkit-box-shadow: 0 0 0 50px black inset;
+    -webkit-box-shadow: 0 0 0 50px #0075F2 inset;
     /* можно изменить на любой вариант цвета */
-    -webkit-text-fill-color: #0075F2;
+    -webkit-text-fill-color: white;
     -webkit-outline: none
 }
 
@@ -151,7 +151,7 @@ input:-internal-autofill-selected {
 
 .opened-burger {
     width: 12vw;
-    height: 13.9vw;
+    height: 17.4vw;
     background-image: url(../img/openedBurger.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -174,7 +174,7 @@ input:-internal-autofill-selected {
     position: absolute;
     align-self: flex-end;
     margin-top: 0.5vw;
-    margin-right: 0.5vw;
+    margin-right: 0.8vw;
 }
 
 .links-text {
@@ -186,7 +186,8 @@ input:-internal-autofill-selected {
 }
 
 .links-text p {
-    margin-top: 1.5vw;
+    margin-top: 1.2vw;
+    margin-left: 0.7vw;
 }
 
 a {
@@ -208,10 +209,10 @@ a {
 }
 
 .basicButton {
-        width: 22.71vw;
+    width: 22.71vw;
     height: 4.79vw;
     background-color: #0075F2;
-        font-family: "IBM Plex Mono Medium", monospace;
+    font-family: "IBM Plex Mono Medium", monospace;
     color: white;
     font-size: clamp(1rem, 0.925rem + 0.38vw, 1.375rem);
     white-space: nowrap;
