@@ -58,8 +58,12 @@ body {
     margin-right: 1.82vw;
 }
 
-footer {
-    position: static;
+canvas {
+    position: absolute;
+    left: 50vw;
+    top: 0vw;
+    width: 50vw;
+    height: 80vh;
 }
 
 @media (max-width: 768px) {
@@ -67,6 +71,10 @@ footer {
     margin-top: 20vw;
     margin-left: 1vw;
     /* margin-bottom: 4.64vw; */
+}
+
+footer {
+    position: static;
 }
 
 .firstIMG {
