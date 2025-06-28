@@ -11,7 +11,7 @@ body {
 
 .first-line-icon {
     display: flex;
-    margin-top: 5.6vw;
+    margin-top: 9.6vw;
     margin-left: 23vw;
 }
 
@@ -76,4 +76,149 @@ body {
 footer {
     background: rgba(100, 100, 100, 0.01);
     backdrop-filter: blur(9px);
+}
+
+
+
+@media (max-width: 1680px) {
+    .first-line-icon {
+        margin-top: 12vw;
+    }
+
+    .second-line-icon {
+        margin-top: 10vw;
+    }
+}
+
+@media (max-width: 1440px) {
+    /* .first-line-icon {
+        margin-top: 12vw;
+    }
+
+    .second-line-icon {
+        margin-top: 11vw;
+    } */
+}
+
+@media (max-width: 1367px) {
+    .first-line-icon {
+        margin-top: 10vw;
+    }
+
+    .second-line-icon {
+        margin-top: 8vw;
+    }
+}
+
+@media (max-width: 1024px) {
+    .first-line-icon {
+        margin-top: 17vw;
+    }
+
+    .second-line-icon {
+        margin-top: 14vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .first-line-icon {
+        margin-top: 24vw;
+        margin-left: 7vw;
+    }
+
+    .second-line-icon {
+        margin-top: 20vw;
+        margin-left: 23vw;
+    }
+
+    .building {
+        width: 21.8vw;
+        height: 20.6vw;
+        margin-top: 7vw;
+    }
+
+    .shop {
+        width: 12.4vw;
+        height: 27.2vw;
+    }
+
+    .posters {
+        width: 16.6vw;
+        height: 22.6vw;
+        margin-top: 4vw;
+    }
+
+    .book {
+        width: 23.9vw;
+        height: 19.6vw;
+        margin-top: 5vw;
+    }
+
+    .webs {
+        width: 17.9vw;
+        height: 25vw;
+    }
+}
+
+@media (max-width: 415px) {
+    .first-line-icon {
+        margin-top: 52vw;
+        margin-left: 5vw;
+    }
+
+    .second-line-icon {
+        margin-top: 49vw;
+        margin-left: 21vw;
+    }
+
+    .building {
+        width: 23.8vw;
+        height: 22.6vw;
+    }
+
+    .shop {
+        width: 14.4vw;
+        height: 29.2vw;
+    }
+
+    .posters {
+        width: 18.6vw;
+        height: 24.6vw;
+    }
+
+    .book {
+        width: 25.9vw;
+        height: 21.6vw;
+    }
+
+    .webs {
+        width: 19.9vw;
+        height: 27vw;
+    }
+}
+
+@media (max-width: 360px) {
+    .first-line-icon {
+        margin-top: 37vw;
+        margin-left: 5vw;
+    }
+
+    .second-line-icon {
+        margin-top: 33vw;
+        margin-left: 16vw;
+    }
+
+    .webs {
+        margin-left: 20vw;
+    }
+}
+
+@media (max-width: 320px) {
+    .first-line-icon {
+        margin-top: 28vw;
+    }
+
+    .second-line-icon {
+        margin-top: 24vw;
+    }
 }

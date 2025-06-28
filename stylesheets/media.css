@@ -1,0 +1,148 @@
+@media (max-width: 1680px) {}
+
+@media (max-width: 1440px) {}
+
+@media (max-width: 1367px) {}
+
+@media (max-width: 1024px) {}
+
+@media (max-width: 768px) {
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: flex;
+    }
+
+    ::placeholder {
+        font-size: clamp(0.875rem, 0.696rem + 0.89vw, 1.125rem);
+    }
+
+    input {
+        font-size: clamp(0.875rem, 0.696rem + 0.89vw, 1.125rem);
+        width: 31.3vw;
+        height: 6vw;
+        margin-left: 1vw;
+    }
+
+    form {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .tg-p {
+        margin-top: -2.5vw;
+    }
+
+    .email-p {
+        margin-top: 0vw;
+    }
+
+    .arrowButton {
+        margin-left: -9vw;
+        margin-top: 0.65vw;
+    }
+
+    .arrowButton img {
+        width: 7.8vw;
+        height: 3.75vw;
+    }
+
+    .logo {
+        width: 10.6vw;
+        height: 10.6vw;
+        top: 4.7vw;
+        left: 4.7vw;
+    }
+
+    .closed-burger {
+        width: 20.8vw;
+        height: 10.6vw;
+        top: 4.7vw;
+        right: 4.7vw;
+    }
+
+    .opened-burger {
+        width: 100vw;
+        height: 100vh;
+        top: 0vw;
+        right: 2.4vw;
+    }
+
+    .links-text {
+        font-size: clamp(2.063rem, 1.482rem + 2.9vw, 2.875rem);
+        margin-top: 9vw;
+        margin-left: 0vw;
+    }
+
+    .links-text p {
+        margin-top: 17vw;
+        margin-left: 4.4vw;
+    }
+
+    .close {
+        width: 20.8vw;
+        height: 10.6vw;
+        top: 4.7vw;
+        right: 4.7vw;
+    }
+}
+
+@media (max-width: 415px) {
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: flex;
+    }
+
+    .links-text {
+        font-size: clamp(2.063rem, 1.482rem + 2.9vw, 2.875rem);
+        margin-top: 20vw;
+        margin-left: 0vw;
+    }
+
+    .links-text p {
+        margin-top: 27vw;
+        margin-left: 4.4vw;
+    }
+}
+
+@media (max-width: 360px) {
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: flex;
+    }
+
+    .links-text {
+        margin-top: 16vw;
+    }
+
+    .links-text p {
+        margin-top: 20vw;
+    }
+}
+
+@media (max-width: 320px) {
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: flex;
+    }
+
+    .links-text {
+        margin-top: 15vw;
+    }
+
+    .links-text p {
+        margin-top: 14vw;
+    }
+}
