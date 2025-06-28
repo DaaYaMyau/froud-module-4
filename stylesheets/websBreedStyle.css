@@ -1,6 +1,7 @@
 body {
     width: 100vw;
-    height: 100vh;
+    /* height: 100vh; */
+    overflow-y: scroll;
     background-image: url(../img/frozenBackround.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -9,8 +10,9 @@ body {
     justify-content: center;
 }
 
-.firstWebPoster, .secondWebPoster {
-    width: 34vw;
+.firstWebPoster,
+.secondWebPoster {
+    width: 38vw;
     /* height: 54vw; */
     height: 85vh;
     background-size: contain;
@@ -27,3 +29,57 @@ body {
     background-image: url(../img/secondWebPoster.png);
     margin-left: 8vw;
 }
+
+footer {
+    position: static;
+}
+
+@media (max-width: 1680px) {}
+
+@media (max-width: 1440px) {}
+
+@media (max-width: 1367px) {}
+
+@media (max-width: 1024px) {}
+
+@media (max-width: 768px) {
+
+    .firstWebPoster,
+    .secondWebPoster {
+        width: 66.9vw;
+        height: 93vw;
+        margin-top: 10vw;
+    }
+
+    .secondWebPoster {
+        margin-left: 0vw;
+    }
+
+}
+
+@media (max-width: 415px) {
+    body {
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+    }
+
+    .firstWebPoster,
+    .secondWebPoster {
+        width: 92.9vw;
+        height: 130vw;
+        margin-top: 0vw;
+    }
+}
+
+@media (max-width: 360px) {
+
+    .firstWebPoster,
+    .secondWebPoster {
+        width: 52.9vw;
+        height: 74vw;
+        margin-top: 0vw;
+    }
+}
+
+@media (max-width: 320px) {}
