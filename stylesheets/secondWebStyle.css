@@ -40,8 +40,6 @@ footer {
 }
 
 @media (max-width: 768px) {
-
-
     .textBlock {
         font-size: clamp(1.125rem, 0.857rem + 1.34vw, 1.5rem);
         width: 90vw;
@@ -57,14 +55,9 @@ footer {
         margin-left: 0vw;
     }
 
-    .videoFirstRight {
-        height: 58.32vw;
-        width: 103vw;
-    }
-
-    .videoSecondRight {
-        height: 22.1vw;
+    video {
         width: 100vw;
+        height: 52vw;
     }
 
     img {
@@ -72,9 +65,3 @@ footer {
         width: 100vw;
     }
 }
-
-@media (max-width: 415px) {}
-
-@media (max-width: 360px) {}
-
-@media (max-width: 320px) {}

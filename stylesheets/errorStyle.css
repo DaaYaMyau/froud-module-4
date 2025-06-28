@@ -75,3 +75,58 @@
     top: 37vw;
     right: 1.8vw;
 }
+
+@media (max-width: 768px) {
+    .text {
+        top: 40vw;
+    }
+
+    .button {
+        width: 90.6vw;
+        height: 16vw;
+        font-size: clamp(1.125rem, 0.857rem + 1.34vw, 1.5rem);
+        top: 85vw;
+        right: 4.7vw;
+    }
+
+    .blur_1 {
+        width: 32vw;
+        height: 28vw;
+        top: 29vw;
+        left: 57vw;
+    }
+
+    .blur_2 {
+        width: 11.22vw;
+        height: 9vw;
+        top: 38vw;
+        left: 50.6vw;
+    }
+
+    .blur_3 {
+        width: 9.22vw;
+        height: 9vw;
+        top: 45vw;
+        left: 23vw;
+    }
+
+    .blur_4 {
+        width: 18vw;
+        height: 14vw;
+        top: 50vw;
+        left: 7vw;
+    }
+
+    .blur_5 {
+        width: 10.22vw;
+        height: 13vw;
+        top: 55vw;
+        left: 62.5vw;
+    }
+}
+
+@media (max-width: 415px) {}
+
+@media (max-width: 360px) {}
+
+@media (max-width: 320px) {}

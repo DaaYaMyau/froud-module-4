@@ -35,3 +35,23 @@ footer {
     border: 1px solid #0075F2;
     cursor: grab;
 }
+
+@media (max-width: 768px) {
+    .textBlock {
+        font-size: clamp(1rem, 0.55rem + 2.25vw, 3.25rem);
+        margin-top: 20vw;
+        margin-bottom: 15vw;
+        width: 98vw;
+        font-size: clamp(1.125rem, 0.857rem + 1.34vw, 1.5rem);
+    }
+
+    .textBlock p:last-child {
+        margin-top: 2vw;
+    }
+
+
+    .bookPage {
+        width: 69.79vw;
+        height: 58.23vw;
+    }
+}

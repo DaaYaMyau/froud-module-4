@@ -18,11 +18,11 @@ body {
 
 .leftColumn {
     margin-left: 1.8vw;
-    width: 46.5.5vw;
+    width: 46.5vw;
 }
 
 .rightColumn {
-    width: 46.5.5vw;
+    width: 46.5vw;
     margin-left: 2.2vw;
 }
 
@@ -122,4 +122,44 @@ body {
 
 footer {
     position: static;
+}
+
+.left-1Right {
+    display: none;
+}
+
+.text-top {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .left-1 {
+        display: none;
+    }
+
+    .left-1Right {
+        display: block;
+        background-image: url(../img/colorPostersAll.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .text {
+        display: none;
+    }
+
+    .text-top {
+        display: block;
+        margin-top: 20vw;
+        margin-bottom: 5vw;
+        width: 92vw;
+        margin-left: 4.7vw;
+        font-size: clamp(1.125rem, 0.857rem + 1.34vw, 1.5rem);
+    }
+
+    .left-6 {
+        display: none;
+    }
+
 }

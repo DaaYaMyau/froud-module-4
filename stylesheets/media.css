@@ -67,8 +67,8 @@
     .opened-burger {
         width: 100vw;
         height: 100vh;
-        top: 0vw;
-        right: 2.4vw;
+        top: 0.5vw;
+        right: 3vw;
     }
 
     .links-text {

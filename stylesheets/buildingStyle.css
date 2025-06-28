@@ -3,7 +3,7 @@ body {
 }
 
 .infoBlock {
-    margin-top: 7vw;
+    margin-top: 5vw;
     margin-left: 1.82vw;
     margin-bottom: 4.64vw;
 }
@@ -60,4 +60,40 @@ body {
 
 footer {
     position: static;
+}
+
+@media (max-width: 768px) {
+.infoBlock {
+    margin-top: 20vw;
+    margin-left: 1vw;
+    /* margin-bottom: 4.64vw; */
+}
+
+.firstIMG {
+    width: 48vw;
+    height: 45.74vw;
+    /* margin-right: 1.82vw; */
+}
+
+.secondIMG {
+    width: 48vw;
+    height: 45.74vw;
+}
+
+.textBlock {
+    margin-top: 3vw;
+    margin-bottom: 4vw;
+    width: 98vw;
+    font-size: clamp(1.125rem, 0.857rem + 1.34vw, 1.5rem);
+}
+
+.button {
+    width: 48vw;
+    height: 13vw;
+    font-size: clamp(0.875rem, 0.429rem + 2.23vw, 1.5rem);
+}
+
+.firstButton {
+    margin-right: 1.82vw;
+}
 }

@@ -65,7 +65,7 @@ footer {
     }
 
     .mediaBlock {
-        margin-left: 0vw;
+        margin-left: 0.5vw;
     }
 
     .videoFirstLeft {
@@ -79,10 +79,10 @@ footer {
     }
 
     .videoThirdLeft {
-        height: 25.8vw;
+        height: 57.8vw;
         width: 100vw;
-        margin-top: -2vw;
-        margin-bottom: -2vw;
+        margin-top: -5vw;
+        margin-bottom: -4vw;
         z-index: 0;
     }
 
@@ -91,10 +91,7 @@ footer {
         width: 100vw;
     }
 
+    .videoSecondLeft {
+        height: 48.1vw;
+    }
 }
-
-@media (max-width: 415px) {}
-
-@media (max-width: 360px) {}
-
-@media (max-width: 320px) {}
