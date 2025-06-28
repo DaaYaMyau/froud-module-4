@@ -182,8 +182,8 @@ input:-internal-autofill-selected {
 }
 
 .links-text p {
-    margin-top: 1.2vw;
-    margin-left: 0.7vw;
+    margin-top: 1.5vw;
+    /* margin-left: 0.7vw; */
 }
 
 a {

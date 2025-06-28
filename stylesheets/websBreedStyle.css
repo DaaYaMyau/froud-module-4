@@ -35,12 +35,17 @@ footer {
 }
 
 @media (max-width: 768px) {
+    body {
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+    }
 
     .firstWebPoster,
     .secondWebPoster {
-        width: 66.9vw;
-        height: 93vw;
-        margin-top: 10vw;
+        width: 93.9vw;
+        height: 131vw;
+        margin-top: 0vw;
     }
 
     .secondWebPoster {
@@ -50,7 +55,7 @@ footer {
 }
 
 @media (max-width: 415px) {
-    body {
+    /* body {
         flex-direction: column;
         align-items: center;
         justify-content: start;
@@ -60,18 +65,17 @@ footer {
     .secondWebPoster {
         width: 92.9vw;
         height: 130vw;
-        margin-top: 0vw;
-    }
+    } */
 }
 
 @media (max-width: 360px) {
 
-    .firstWebPoster,
+    /* .firstWebPoster,
     .secondWebPoster {
         width: 52.9vw;
         height: 74vw;
         margin-top: 0vw;
-    }
+    } */
 }
 
 @media (max-width: 320px) {}

@@ -1,5 +1,5 @@
 body {
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .textBlock {
@@ -48,13 +48,11 @@ img {
     width: 46vw;
 }
 
-
+footer {
+    position: static;
+}
 
 @media (max-width: 768px) {
-    footer {
-        position: static;
-    }
-
     .textBlock {
         font-size: clamp(1.125rem, 0.857rem + 1.34vw, 1.5rem);
         width: 90vw;
@@ -92,7 +90,6 @@ img {
         height: 70vw;
         width: 100vw;
     }
-
 
 }
 
