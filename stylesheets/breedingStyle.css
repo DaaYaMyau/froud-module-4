@@ -5,11 +5,8 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    /* overflow: hidden; */
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
-    /* justify-content: center; */
 }
 
 .first-line-icon {
@@ -31,9 +28,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    /* position: absolute;
-    top: 11vw;
-    left: 25vw; */
     margin-top: 1vw;
 }
 
@@ -79,12 +73,7 @@ body {
 }
 
 
-/* footer {
-    background-image: url(../img/blur.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: transparent;
-    mix-blend-mode: lighten;
-    background-blend-mode: lighten;
-} */
+footer {
+    background: rgba(100, 100, 100, 0.01);
+    backdrop-filter: blur(9px);
+}

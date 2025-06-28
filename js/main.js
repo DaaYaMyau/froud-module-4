@@ -3,11 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const burgerClosed = document.querySelector('.closed-burger');
     const burgerOpened = document.querySelector('.opened-burger');
     const close = document.querySelector('.close');
-//     const webs = document.querySelector('.webs');
-//     const firstWebPoster = document.querySelector('.firstWebPoster');
-//     const secondWebPoster = document.querySelector('.secondWebPoster');
-//     const posters = document.querySelector('.posters');
-// const building = document.querySelector('.building');
+
 
     logo.addEventListener('click', function () {
         window.location.href = "index.html";

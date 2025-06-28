@@ -4,7 +4,6 @@ body {
 
 .twoColumns {
     display: flex;
-    /* justify-content: space-around; */
 }
 
 .text {

@@ -1,0 +1,77 @@
+.text {
+    color: #000;
+    text-align: center;
+    font-size: clamp(2.5rem, 1.4rem + 5.5vw, 8rem);
+    letter-spacing: -0.6vw;
+    position: absolute;
+    top: 13vw;
+    left: 1.5vw;
+    z-index: 2;
+}
+
+.blur * {
+    position: absolute;
+    z-index: 3;
+}
+
+.blur_1 {
+    width: 15vw;
+    height: 13vw;
+    z-index: 1;
+    top: 11vw;
+    left: 50vw;
+    background: rgba(100, 100, 100, 0.01);
+    backdrop-filter: blur(17px);
+}
+
+.blur_2 {
+    width: 4.22vw;
+    height: 5vw;
+    top: 17vw;
+    left: 76.6vw;
+    background: rgba(100, 100, 100, 0.01);
+    backdrop-filter: blur(17px);
+}
+
+.blur_3 {
+    width: 4.22vw;
+    height: 5vw;
+    top: 20vw;
+    left: 32vw;
+    background: rgba(100, 100, 100, 0.01);
+    backdrop-filter: blur(17px);
+}
+
+.blur_4 {
+    z-index: 1;
+    width: 9vw;
+    height: 8vw;
+    top: 25vw;
+    left: 34vw;
+    background: rgba(100, 100, 100, 0.01);
+    backdrop-filter: blur(17px);
+}
+
+.blur_5 {
+    width: 4.22vw;
+    height: 5vw;
+    top: 18vw;
+    left: 7.5vw;
+    background: rgba(100, 100, 100, 0.01);
+    backdrop-filter: blur(17px);
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 22.71vw;
+    height: 4.79vw;
+    background-color: #0075F2;
+    font-family: "IBM Plex Mono Medium", monospace;
+    color: white;
+    font-size: clamp(1rem, 0.925rem + 0.38vw, 1.375rem);
+    position: absolute;
+    top: 37vw;
+    right: 1.8vw;
+}

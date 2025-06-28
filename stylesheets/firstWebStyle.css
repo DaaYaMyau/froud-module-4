@@ -33,27 +33,19 @@ body {
 .videoThirdLeft {
     height: 25.8vw;
     width: 46vw;
+    margin-top: -2vw;
+    margin-bottom: -2vw;
+    z-index: 0;
+}
+
+.imgSecondLeft, .imgThirdLeft {
+    z-index: 1;
 }
 
 img {
     height: 33vw;
     width: 46vw;
 }
-
-/* .imgFirstLeft {
-    height: 33.4vw;
-    width: 46vw;
-}
-
-.imgSecondLeft {
-    height: 33.3vw;
-    width: 46vw;
-}
-
-.imgThirdLeft {
-    height: 23vw;
-    width: 46vw;
-} */
 
 footer {
     position: static;

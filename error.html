@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Froud</title>
     <link rel="stylesheet" href="stylesheets/style.css">
-    <link rel="stylesheet" href="stylesheets/secondWebStyle.css">
+    <link rel="stylesheet" href="stylesheets/errorStyle.css">
     <link rel="shortcut icon" href="img/logo3Dimage.svg" type="image/x-icon">
 </head>
 
@@ -27,25 +27,20 @@
     </div>
 
 
-    <div class="textBlock">
-        <p>Данный веб-плакат креативно отображает идею выгрузки продуктов в&nbsp;&laquo;сломанный&raquo; холодильник.
-        </p>
-        <p>Мы&nbsp;показываем убежавшее молоко и&nbsp;поломанные уравнения, и&nbsp;муравьёв, решивших полакомиться
-            вашими продуктами.</p>
+    <div class="blur">
+
+        <div class="blur_1"></div>
+        <div class="blur_2"></div>
+        <div class="blur_3"></div>
+        <div class="blur_4"></div>
+        <div class="blur_5"></div>
     </div>
 
-    <div class="mediaBlock">
-        <img src="img/imgFirstRight.png" alt="first presentation picture" class="imgFisrtRight">
-        <video src="img/videoFirstRight.mp4" autoplay class="videoFirstRight">
-        </video>
-        <img src="img/imgSecondRight.png" alt="second presentation picture" class="imgSecondRight">
-        <img src="img/imgThirdRight.png" alt="third presentation picture" class="imgThirdRight">
-        <video src="img/videoSecondRight.mp4" autoplay class="videoSecondRight">
-        </video>
-        <img src="img/imgFourthRight.png" alt="fourth presentation picture" class="imgFourthRight">
-        <img src="img/imgFifthRight.png" alt="fifth presentation picture" class="imgFifthRight">
-    </div>
+    <div class="text"></div>
 
+    <a href="index.html" class="button">
+        вернуться на главную
+    </a>
 
     <footer>
         <div class="first-column-footer">
@@ -72,6 +67,16 @@
     </footer>
 
     <script src="js/main.js" charset="UTF-8"></script>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://cdn.jsdelivr.net/npm/three@0.172.0/build/three.module.js",
+                "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.172.0/examples/jsm/",
+                "cannon-es": "https://cdn.jsdelivr.net/npm/cannon-es@0.20.0/dist/cannon-es.js"
+            }
+        }
+    </script>
+    <script type="module" src="js/errorFunc.js"></script>
 </body>
 
 </html>

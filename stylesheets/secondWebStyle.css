@@ -20,40 +20,20 @@ body {
     flex-direction: column;
 }
 
-.videoFirstLeft {
-    height: 25.9vw;
-    width: 46vw;
+.videoFirstRight {
+    margin-top: -1vw;
+    margin-bottom: -1vw;
 }
 
-.videoSecondLeft {
-    height: 22.1vw;
+video {
+    height: 24vw;
     width: 46vw;
 }
-/* 
-.videoThirdLeft {
-    height: 25.8vw;
-    width: 46vw;
-} */
 
 img {
     height: 33vw;
     width: 46vw;
 }
-
-/* .imgFirstLeft {
-    height: 33.4vw;
-    width: 46vw;
-}
-
-.imgSecondLeft {
-    height: 33.3vw;
-    width: 46vw;
-}
-
-.imgThirdLeft {
-    height: 23vw;
-    width: 46vw;
-} */
 
 footer {
     position: static;
