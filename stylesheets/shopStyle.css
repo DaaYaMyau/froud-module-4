@@ -165,6 +165,7 @@ footer {
 .bottom_info {
     display: flex;
     justify-content: space-between;
+    width: 9.48vw;
 }
 
 .quantity_inner {
