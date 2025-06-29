@@ -3,36 +3,45 @@ import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 
 document.addEventListener('DOMContentLoaded', () => {
-    // Получаем контейнер для модели
     const modelBlock = document.querySelector('.modelBlock');
     const canvas = modelBlock.querySelector('canvas');
-    
-    const scene = new THREE.Scene();
-    scene.background = new THREE.Color('#FFFFFF'); 
 
-    const camera = new THREE.PerspectiveCamera(75, modelBlock.clientWidth / modelBlock.clientHeight, 0.1, 1000);
-    camera.position.set(0, 0, 0);
-   
+    // Убедимся, что блок имеет размеры
+    if (modelBlock.clientWidth === 0 || modelBlock.clientHeight === 0) {
+        console.warn('Model block has zero size - check CSS');
+    }
+
+    const scene = new THREE.Scene();
+    scene.background = new THREE.Color('#FFFFFF');
+
+    // Установим начальные размеры
+    const width = modelBlock.clientWidth;
+    const height = modelBlock.clientHeight;
+
+    const camera = new THREE.PerspectiveCamera(75, width / height, 0.1, 1000);
+    camera.position.set(1, 0, 2); // Отодвинем камеру назад
+
     const renderer = new THREE.WebGLRenderer({
         canvas: canvas,
         antialias: true
     });
-    renderer.setSize(modelBlock.clientWidth, modelBlock.clientHeight);
-    renderer.setPixelRatio(window.devicePixelRatio);
-    renderer.toneMapping = THREE.LinearToneMapping; 
-    renderer.toneMappingExposure = 1; 
 
-    const ambientLight = new THREE.AmbientLight(0xffffff, 0.3); 
+    renderer.setSize(width, height, false);
+    renderer.setPixelRatio(window.devicePixelRatio);
+    renderer.toneMapping = THREE.LinearToneMapping;
+    renderer.toneMappingExposure = 1;
+
+    const ambientLight = new THREE.AmbientLight(0xffffff, 0.9);
     scene.add(ambientLight);
-    
-    const directionalLight = new THREE.DirectionalLight(0xffffff, 2.5); 
-    directionalLight.position.set(1, 1, 1); 
+
+    const directionalLight = new THREE.DirectionalLight(0xffffff, 2.5);
+    directionalLight.position.set(1, 1, 1);
     scene.add(directionalLight);
 
-    const directionalLight2 = new THREE.DirectionalLight(0xffffff, 2.5); 
-    directionalLight2.position.set(-1, -1, -1); 
+    const directionalLight2 = new THREE.DirectionalLight(0xffffff, 2.5);
+    directionalLight2.position.set(-1, -1, -1);
     scene.add(directionalLight2);
-    
+
     let model; // Будем хранить ссылку на модель
 
     const loader = new GLTFLoader();
@@ -58,21 +67,24 @@ document.addEventListener('DOMContentLoaded', () => {
     function animate() {
         requestAnimationFrame(animate);
         controls.update();
-        
+
         if (model) {
-            model.rotation.y += 0.001; 
-            model.rotation.z -= 0.001;
+            model.rotation.y += 0;
+            model.rotation.z -= 0;
         }
         renderer.render(scene, camera);
     }
-    
+
     animate();
 
     function onWindowResize() {
-        // Обновляем размеры с учетом размеров контейнера
-        camera.aspect = modelBlock.clientWidth / modelBlock.clientHeight;
+        // Получаем актуальные размеры
+        const newWidth = modelBlock.clientWidth;
+        const newHeight = modelBlock.clientHeight;
+
+        camera.aspect = newWidth / newHeight;
         camera.updateProjectionMatrix();
-        renderer.setSize(modelBlock.clientWidth, modelBlock.clientHeight);
+        renderer.setSize(newWidth, newHeight, false);
     }
 
     window.addEventListener('resize', onWindowResize);

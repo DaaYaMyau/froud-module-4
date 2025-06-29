@@ -11,7 +11,7 @@ body {
 
 .first-line-icon {
     display: flex;
-    margin-top: 5.8vw;
+    margin-top: 9vw;
     margin-left: 23vw;
 }
 
@@ -80,11 +80,11 @@ footer {
 
 @media (max-width: 1680px) {
     .first-line-icon {
-        margin-top: 12vw;
+        margin-top: 6vw;
     }
 
     .second-line-icon {
-        margin-top: 10vw;
+        margin-top: 8vw;
     }
 }
 
