@@ -98,7 +98,6 @@ footer {
     color: #0075F2;
     font-size: clamp(1rem, 0.925rem + 0.38vw, 1.375rem);
     white-space: nowrap;
-    display: none;
 }
 
 .cart {
@@ -130,11 +129,30 @@ footer {
 .imgSmall {
     width: 6.82vw;
     height: 4.74vw;
-    background-image: url(../img/soda.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     border: 1px solid #0075F2;
+}
+
+.product .soda {
+    background-image: url(../img/soda.png);
+}
+
+.product .lunch {
+    background-image: url(../img/lunch.png);
+}
+
+.product .milk {
+    background-image: url(../img/milk.png);
+}
+
+.product .case {
+    background-image: url(../img/case.png);
+}
+
+.product .vending {
+    background-image: url(../img/vending.png);
 }
 
 .info {
@@ -205,10 +223,33 @@ hr {
     margin-left: 1.88vw;
 }
 
+.cart-empty {
+    display: none;
+}
+
+.closeCart {
+    display: none;
+    width: 2.6vw;
+    height: 1.7vw;
+    background-image: url(../img/close.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    align-self: flex-end;
+    margin-top: 0.5vw;
+    margin-right: 0.8vw;
+}
+
 @media (max-width: 768px) {
-    .cart {
-        display: none;
+    /* .cart {
+        display: flex;
+        position: fixed;
     }
+
+    .closeCart {
+        display: block;
+    } */
 
     .heading {
         margin-top: 20vw;
@@ -292,7 +333,7 @@ hr {
         position: fixed;
         font-size: clamp(1.125rem, 0.857rem + 1.34vw, 1.5rem);
         color: white;
-        display: flex;
+        display: none;
         justify-content: center;
         align-items: center;
     }
@@ -307,14 +348,4 @@ hr {
         background-position: center;
     }
 
-    /* .cart {
-        width: 26.35vw;
-        border: 1px solid #0075F2;
-    }
-
-    .cart p {
-        margin-top: 6.25vw;
-        margin-left: 1.8vw;
-        font-size: clamp(1.5rem, 1.188rem + 1.56vw, 3.063rem);
-    } */
 }
