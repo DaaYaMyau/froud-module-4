@@ -242,24 +242,39 @@ hr {
 }
 
 @media (max-width: 768px) {
-    /* .cart {
-        display: flex;
+    .cart {
+        display: none;
+        background-color: white;
         position: fixed;
+        width: 100vw;
+        height: 100vh;
+        z-index: 10;
     }
 
     .closeCart {
-        display: block;
-    } */
+        display: inline;
+        z-index: 11;
+        width: 17.8vw;
+        height: 7.6vw;
+        top: 4.7vw;
+        right: 4.3vw;
+    }
+
+    .cart p {
+        font-size: clamp(1.25rem, 0.045rem + 6.03vw, 2.938rem);
+        margin-top: 20vw;
+        margin-left: 4.7vw;
+    }
 
     .heading {
         margin-top: 20vw;
         margin-left: 4.7vw;
         margin-bottom: 3vw;
-        font-size: clamp(1.125rem, 0.857rem + 1.34vw, 1.5rem);
+        font-size: clamp(1.25rem, 0.045rem + 6.03vw, 2.938rem);
     }
 
     .productCard {
-        margin-top: 2.08vw;
+        margin-top: 4vw;
         margin-left: 4.7vw;
         width: 91.2vw;
         margin-bottom: 4.69vw;
@@ -346,6 +361,70 @@ hr {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
+    }
+
+    .all_prod {
+        margin-top: 2.08vw;
+        margin-left: 4.7vw
+    }
+
+    .priceCart {
+        font-size: clamp(0.938rem, 0.045rem + 4.46vw, 2.188rem);
+    }
+
+    .product {
+        margin-bottom: 2vw;
+        width: 87vw;
+    }
+
+    .imgSmall {
+        width: 42.5vw;
+        height: 31.9vw;
+    }
+
+    .nameCart {
+        font-size: clamp(1.25rem, 0.045rem + 6.03vw, 2.938rem);
+
+    }
+
+    .info {
+        margin-left: 4vw;
+    }
+
+    .quantity_inner {
+        width: 19vw;
+        height: 6.09vw;
+    }
+
+    .quantity_inner input {
+        width: 5vw;
+        height: 6vw;
+        border: 0;
+        padding: 0vw;
+        margin-top: 0vw;
+        font-size: clamp(0.938rem, 0.045rem + 4.46vw, 2.188rem);
+    }
+
+    .quantity_inner button {
+        margin-left: 1vw;
+        margin-right: 1vw;
+        font-size: clamp(0.938rem, 0.045rem + 4.46vw, 2.188rem);
+    }
+
+    .all_count {
+        margin-top: 4vw;
+        margin-left: 4.7vw;
+        width: 92vw;
+        font-size: clamp(1.25rem, 0.045rem + 6.03vw, 2.938rem);
+
+    }
+
+    .order_bt {
+        width: 92vw;
+        height: 18vw;
+        font-size: clamp(1.25rem, 0.045rem + 6.03vw, 2.938rem);
+        margin-top: 4vw;
+        margin-left: 4.7vw;
     }
 
 }

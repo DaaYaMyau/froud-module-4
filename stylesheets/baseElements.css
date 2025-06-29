@@ -128,7 +128,7 @@ input:-internal-autofill-selected {
     position: fixed;
     top: 1.7vw;
     left: 1.8vw;
-    z-index: 3;
+    z-index: 20;
 }
 
 .closed-burger {

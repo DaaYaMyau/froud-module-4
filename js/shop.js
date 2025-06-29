@@ -4,19 +4,24 @@ document.addEventListener('DOMContentLoaded', function () {
     const cartEmpty = document.querySelector('.cart-empty');
     const card_mobile = document.querySelector('.card_mobile');
     const circle = document.querySelector('.circle');
+    const closeCart = document.querySelector('.closeCart');
+    const cart = document.querySelector('.cart');
 
     card_mobile.addEventListener('click', function () {
+        if (window.getComputedStyle(cart).display === 'none') {
+            cart.style.display = 'block';
+            card_mobile.style.display = 'none';
+        }
+    });
+
+    closeCart.addEventListener('click', function () {
         if (window.getComputedStyle(card_mobile).display === 'none') {
+            cart.style.display = 'none';
             card_mobile.style.display = 'flex';
         }
     });
 
-    // closeCart.addEventListener('click', function () {
-    //     if (window.getComputedStyle(burgerClosed).display === 'none') {
-    //         burgerOpened.style.display = 'none';
-    //         burgerClosed.style.display = 'flex';
-    //     }
-    // });
+
     let mobile_count = 0
 
     basicButtons.forEach((button) => {
